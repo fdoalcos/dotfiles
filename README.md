@@ -4,6 +4,12 @@ This is my directory that contains the dotfiles for my system
 
 ## Requirements
 
+Either run if OS system is supported:
+```bash
+./install.sh
+```
+
+Or Run:
 ```bash
 # for zsh
 sudo apt install zsh 

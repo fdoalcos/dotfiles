@@ -64,9 +64,13 @@ set noerrorbells visualbell t_vb=
 set mouse+=a
 
 "Enable tab space to be 4
+" set tabstop=4
+" set shiftwidth=4
+" set expandtab
+set noexpandtab
 set tabstop=4
 set shiftwidth=4
-set expandtab
+set softtabstop=4
 
 " Map shift + tab to unindent in normal and visual mode
 nnoremap <S-Tab> <<
@@ -82,7 +86,7 @@ vnoremap <S-Tab> <gv
 nnoremap <Left>  :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
-nnoremap <Down>  :echoe "Use j please thanks"<CR>
+nnoremap <Down>  :echoe "Use j"<CR>
 " ...and in insert mode
 inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>

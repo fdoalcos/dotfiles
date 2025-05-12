@@ -92,3 +92,9 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j please"<CR>
+
+
+" Allow copy and paste with ctrl c and ctrl v
+vnoremap <C-c> "+y
+nnoremap <C-v> "+p
+inoremap <C-v> <Esc> "+pa

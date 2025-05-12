@@ -2,6 +2,7 @@
 
 echo "Installing Francis's configuration system"
 
+# if one fails then all fails
 set -e
 
 OS="$(uname)"
